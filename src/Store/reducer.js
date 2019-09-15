@@ -1,18 +1,43 @@
 const INITIAL_STATE = {
-    name: 'khatumal',
-    age: 21
+    user:{
+    name: 'Khatumal',
+    age: 20,
+    email: 'Khatumal10@gmail.com'
+},
 }
 
-const reducer = (state = INITIAL_STATE, action) => {
-    if (action.type === "UPDATENAME") {
-        state.name = 'kamal'
-    }
-
-    console.log(state.name)
-    switch(action.type) {
-        case 'UPDATENAME': state.name = "kailash";
-        break
-        default: state.name = "khatumal"
-    }
+const reducer = (state = INITIAL_STATE) => {
+    return state
 }
+
+
 export default reducer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// if (action.type === "UPDATENAME") {
+//     state.name = 'kamal'
+// }
+
+
+// switch(action.type) {
+//     case 'UPDATENAME': state.name = "kailash";
+//     break
+//     default: state.name = "khatumal"
+// }

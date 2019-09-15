@@ -81,10 +81,10 @@ export default function SearchAppBar() {
                         <div>
                             <ul>
                             Material-UI
-                                <li><a>Home</a></li>
-                                <li><a>About</a></li>
-                                <li><a>Contact</a></li>
-                                <li><a>Profile</a></li>
+                                <li ><a href="/" style={{color: 'white', textDecoration: 'none'}}>Home</a></li>
+                                <li><a href="/About" style={{color: 'white', textDecoration: 'none'}}>About</a></li>
+                                <li><a href="/Contact" style={{color: 'white', textDecoration: 'none'}}>Contact</a></li>
+                                <li><a href="/Profile" style={{color: 'white', textDecoration: 'none'}}>Profile</a></li>
                             </ul>
                         </div>
                     </Typography>
