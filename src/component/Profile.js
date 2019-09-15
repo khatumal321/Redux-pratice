@@ -3,9 +3,10 @@ import {connect} from 'react-redux'
 
 class Profile extends React.Component{
     mapFunc() {
-        alert(Object.values(this.props.user))
+        document.write(Object.values(this.props.user))
     }
     render(){
+        console.log(this.props.user)
         return(
             <div>
                 <center>

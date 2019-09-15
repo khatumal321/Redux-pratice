@@ -1,10 +1,9 @@
 const INITIAL_STATE = {
-    user:{
     name: 'Khatumal',
     age: 20,
     email: 'Khatumal10@gmail.com'
-},
 }
+
 
 const reducer = (state = INITIAL_STATE) => {
     return state
